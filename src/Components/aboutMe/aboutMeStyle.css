@@ -1,0 +1,62 @@
+@keyframes fadeDentro {
+    from {opacity:0;
+    }
+    to {opacity:100;
+        }
+  }
+@media only screen and (min-width: 1115px) {
+.sobreMim{
+    display: grid;
+    grid-template-rows: 60vh;
+    border: 10px;
+    background-color: rgb(243, 243, 243);
+}
+}
+
+@media only screen and (max-width: 1115px) {
+    .sobreMim{
+        display: grid;
+        grid-template-rows: 130vh;
+        border: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@media only screen and (min-width: 1115px) {
+    .conteudo{
+        display: grid;
+        padding: 5vh;
+        border: 4px;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    
+    }
+}
+
+@media only screen and (max-width: 1115px) {
+    .conteudo{
+        display: grid;
+        padding: 5vh;
+        border: 4px;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    
+    }
+}
+
+.eu{
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+
+.euImagem{
+    border: 1px solid rgba(202, 202, 202, 0.801);
+    padding: 5px;
+    border-radius: 2px;
+    animation-name: fadeDentro;
+    animation-duration: 4s;
+    padding: 5px;
+}
