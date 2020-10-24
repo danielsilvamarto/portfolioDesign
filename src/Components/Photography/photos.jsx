@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { PageHeader, Menu, Button, Image, Typography, Carousel } from 'antd';
+import React from 'react';
+import { Carousel } from 'antd';
 import 'antd/dist/antd.css';
 import './photosS.css';
 

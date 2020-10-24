@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { PageHeader, Menu, Button, Image, Typography } from 'antd';
+import React from 'react';
+import {Image, Typography } from 'antd';
 import Me from './me.jpg';
 import 'antd/dist/antd.css';
 import './aboutMeStyle.css';

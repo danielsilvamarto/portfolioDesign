@@ -2,7 +2,7 @@ import React from 'react';
 import FrontP from './Components/frontPage/frontPage.jsx';
 import ToDo from './Components/toDo/toDo.jsx';
 import AboutMe from './Components/aboutMe/aboutMe.jsx';
-import PhotosMe from './Components/Photography/photos.jsx';
+
 import './App.css';
 
 function App() {

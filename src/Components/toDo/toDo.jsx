@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { PageHeader, Menu, Button, Image, Typography } from 'antd';
+import React from 'react';
+import { Image, Typography } from 'antd';
 import 'antd/dist/antd.css';
 import './ss.css';
 import ImgCode from "./code.png";
