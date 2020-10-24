@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# This is comented because build is hosted at guithub pages
+# /build
 
 # misc
 .DS_Store
