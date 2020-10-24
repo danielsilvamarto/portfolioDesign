@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cddd4a77.chunk.css",
+    "main.js": "/static/js/main.6263cb9b.chunk.js",
+    "main.js.map": "/static/js/main.6263cb9b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d4e91538.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d4e91538.js.map",
+    "static/css/2.e10332d9.chunk.css": "/static/css/2.e10332d9.chunk.css",
+    "static/js/2.d73db8a4.chunk.js": "/static/js/2.d73db8a4.chunk.js",
+    "static/js/2.d73db8a4.chunk.js.map": "/static/js/2.d73db8a4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.de9c006313430ad145da5d4f3fc9dea1.js": "/precache-manifest.de9c006313430ad145da5d4f3fc9dea1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e10332d9.chunk.css.map": "/static/css/2.e10332d9.chunk.css.map",
+    "static/css/main.cddd4a77.chunk.css.map": "/static/css/main.cddd4a77.chunk.css.map",
+    "static/js/2.d73db8a4.chunk.js.LICENSE.txt": "/static/js/2.d73db8a4.chunk.js.LICENSE.txt",
+    "static/media/BrunoSky3_f.jpg": "/static/media/BrunoSky3_f.b096c2ac.jpg",
+    "static/media/frontPageStyle.css": "/static/media/bruno3 (1 of 1).8ca70177.jpg",
+    "static/media/code.png": "/static/media/code.45bd2dc7.png",
+    "static/media/me.jpg": "/static/media/me.2cf05d61.jpg",
+    "static/media/photography.png": "/static/media/photography.05fd1ada.png",
+    "static/media/videographer.png": "/static/media/videographer.2d544ba7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4e91538.js",
+    "static/css/2.e10332d9.chunk.css",
+    "static/js/2.d73db8a4.chunk.js",
+    "static/css/main.cddd4a77.chunk.css",
+    "static/js/main.6263cb9b.chunk.js"
+  ]
+}
