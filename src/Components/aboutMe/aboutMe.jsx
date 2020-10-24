@@ -1,6 +1,6 @@
 import React from 'react';
 import {Image, Typography } from 'antd';
-import Me from './me.jpg';
+import Me from './me.jpeg';
 import 'antd/dist/antd.css';
 import './aboutMeStyle.css';
 
