@@ -28,7 +28,7 @@ const FrontPage= () => {
         <div className="front">  
             <div>
                 <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-                    <Menu.Item key="1"><a href="https://drive.google.com/file/d/1_-aYeECcGk8K3JigyWk9G1x-SAiJD_QQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a></Menu.Item>
+                    <Menu.Item style={{backgroundColor: "#338DFF"}} key="1"><a href="https://drive.google.com/file/d/1_-aYeECcGk8K3JigyWk9G1x-SAiJD_QQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a></Menu.Item>
                 </Menu> 
             </div>
             <div className="coverAndTittle">  

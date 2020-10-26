@@ -49,7 +49,7 @@
     margin-left: 10vw;
     margin-right: 10vw;
 }
-
+@media only screen and (min-width: 1115px) {
 .beginingBan{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -64,6 +64,23 @@
     animation-duration: 2s;
     
 }
+}
 
+@media only screen and (max-width: 1115px) {
+    .beginingBan{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    
+    .banRight{
+        background-color: rgba(11, 60, 92, 0.329);
+        font-family: 'Anton', sans-serif;
+        color: rgba(255, 255, 255, 0.863);
+        text-align: left;
+        animation-name: fadeDentro;
+        animation-duration: 2s;
+        max-height: 25vh;
+        
+    }
 
-
+}

@@ -1,5 +1,5 @@
 {
-  "name": "simple_portfolio",
+  "name": "portfolioDesign",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:danielsilvamarto/portfolioDesign.git",
+  "author": "Daniel Marto <daniel.silva.marto@hotmail.com>",
+  "license": "MIT"
 }
