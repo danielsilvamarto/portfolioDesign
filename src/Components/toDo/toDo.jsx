@@ -1,13 +1,23 @@
 import React from 'react';
-import { Image, Typography } from 'antd';
+import {  Typography } from 'antd';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    Redirect,
+  } from "react-router-dom";
+
+import Video from '../videography/video';
+import Photography from '../Photography/photos';
+import Web from '../webDev/webdev';
 import 'antd/dist/antd.css';
 import './ss.css';
-import ImgCode from "./code.png";
-import ImgPhoto from "./photography.png";
-import ImgVideo from "./videographer.png";
+
 
 import 'antd/dist/antd.css';
 import './ss.css';
+
 
 const ToDo = () => {
 
@@ -17,9 +27,18 @@ const ToDo = () => {
     return(
     <div className="toDoForma">
         <div className="toDo">
-            <div className="titulos"><div className="iconesCaixa"><Image className="iconesI" src={ImgPhoto} preview={false}/></div><Title level={5}>PHOTOGRAPHY</Title></div>
-            <div className="titulos"><div className="iconesCaixa"><Image className="iconesI" src={ImgVideo} preview={false}/></div><Title level={5}>VIDEO</Title></div>
-            <div className="titulos"><div className="iconesCaixa"><Image className="iconesI" src={ImgCode} preview={false}/></div><Title level={5}>WEB DEVELOPING</Title></div>
+       
+               <Link  to="/"><div className="menuBox"><Title level={5}>Photography</Title></div></Link>
+               <Link  to="/video"><div className="menuBox" href="/video"><Title level={5}>Videography</Title></div></Link>
+               <Link  to="/web"><div className="menuBox" href="/web"><Title level={5}>Web Developing</Title></div></Link>
+        </div>
+        <div className="galeria">
+        <Switch>
+         <Route path="/" exact><Photography/></Route>
+         <Route path="/video" exact><Video/></Route>
+         <Route path="/web" exact><Web/></Route>
+         <Redirect to="/" />
+        </Switch>
         </div>
     </div>
     );

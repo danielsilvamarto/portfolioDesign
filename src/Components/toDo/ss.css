@@ -1,65 +1,42 @@
-@media only screen and (min-width: 1115px) {
 .toDoForma{
     display: grid;
-    grid-template-rows: 60vh;
-    border: 10px;
-    background-color: rgb(255, 255, 255);
-
+    grid-template-rows: 5vh 95vh;
+    width: 99vw;
+    justify-items: center;
+    border: 5px;
+    padding: 5px;
+    background-color:  rgb(243, 243, 243);
 }
-}
 
-@media only screen and (max-width: 1115px) {
-    .toDoForma{
-        display: grid;
-        grid-template-rows: 100vh;
-        border: 10px;
-        background-color: rgb(255, 255, 255);
-
-    }
-}
- 
-@media only screen and (min-width: 1115px) {
-    .toDo{
-        display: grid;
-        padding: 5vh;
-        border: px;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
-        justify-items: center;
+.toDo{
+    display: flex;
+    padding: 0px;
+    border: 0px;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 99vw;
+    flex-basis: auto;
     
-    }
 }
 
-@media only screen and (max-width: 1115px) {
-    .toDo{
-        display: grid;
-        padding: 5vh;
-        border: 4px;
-        grid-template-rows: 1fr 1fr 1fr;
-        align-items: center;
-        justify-items: center;
-    
-    }
-}
-
-.iconesI{
-        max-width: 250px;
-        max-height: 250px;
-        
-}
-
-.iconesCaixa{
-   
-    padding: 5px;
-    border-radius: 2px;
-    animation-name: fadeDentro;
-    animation-duration: 4s;
-    padding: 5px;
-}
-
-.titulos{
-    grid-template-rows: 90% 10%;
-    padding: 5px;
-    align-items: center;
+.menuBox{
+    width: 33vw;
+    align-content: center;
     text-align: center;
+}
+
+.menuBox:hover{
+    background-color: rgb(192, 192, 192);
+    transition: 0.6s;
+    
+}
+
+
+
+.galeria{
+    display: inline-flexbox;
+    max-width: 95vw;
+    width: 95vw;
+    height: 9vh;
+    
 }
