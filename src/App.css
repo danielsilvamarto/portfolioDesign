@@ -1,4 +1,5 @@
 .appLay{
-    display: grid;
-    grid-template-rows: 1fr ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

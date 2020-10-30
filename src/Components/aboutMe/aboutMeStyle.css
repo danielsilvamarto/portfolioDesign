@@ -1,3 +1,9 @@
+.foraGrid{
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 @keyframes fadeDentro {
     from {opacity:0;
     }

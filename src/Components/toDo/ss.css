@@ -1,21 +1,29 @@
 .toDoForma{
-    display: grid;
-    grid-template-rows: 5vh 95vh;
-    width: 99vw;
+    /*display: grid;
+    grid-template-rows: 5vh 95vh;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 4vh;
+    width: auto;
     justify-items: center;
-    border: 5px;
-    padding: 5px;
-    background-color:  rgb(243, 243, 243);
+    
+    background-color:  rgb(255, 255, 255);
 }
 
 .toDo{
     display: flex;
     padding: 0px;
-    border: 0px;
+    border:0px;
     flex-flow: row wrap;
     justify-content: center;
     width: 99vw;
     flex-basis: auto;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+    background: linear-gradient(180deg, rgba(63, 116, 177, 0.589) 0%, rgb(255, 255, 255) 2%, rgb(255, 255, 255) 98%, rgba(63, 116, 177, 0.589) 100%);
+    
     
 }
 
@@ -23,11 +31,15 @@
     width: 33vw;
     align-content: center;
     text-align: center;
+    text-decoration: none;
 }
 
+
 .menuBox:hover{
-    background-color: rgb(192, 192, 192);
-    transition: 0.6s;
+    background: rgba(182, 182, 182, 0.623);
+    
+    transition: 1s;
+    
     
 }
 
@@ -38,5 +50,9 @@
     max-width: 95vw;
     width: 95vw;
     height: 9vh;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    justify-content: center;
+    padding-left: 5vw;
     
 }

@@ -1,4 +1,33 @@
-.galeria{
-    display: grid;
-    grid-template-rows: 5vh 55vh;
+.galeria3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 4vh;
+    width: 100%;
+}
+
+.textoOrdem{
+    padding-left:calc(15px + 2vw);
+    padding-right:calc(15px + 2vw);
+    width: 99vw;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 99vw;
+}
+
+.imgSize{
+        max-width: 40px;
+        max-height: 40px;
+        
+    
 }

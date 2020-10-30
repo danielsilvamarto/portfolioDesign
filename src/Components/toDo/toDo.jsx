@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Typography } from 'antd';
+import {  Menu, Typography } from 'antd';
 import {
     BrowserRouter as Router,
     Switch,
@@ -27,10 +27,11 @@ const ToDo = () => {
     return(
     <div className="toDoForma">
         <div className="toDo">
-       
-               <Link  to="/"><div className="menuBox"><Title level={5}>Photography</Title></div></Link>
-               <Link  to="/video"><div className="menuBox" href="/video"><Title level={5}>Videography</Title></div></Link>
-               <Link  to="/web"><div className="menuBox" href="/web"><Title level={5}>Web Developing</Title></div></Link>
+        
+            <Link  to="/"><div className="menuBox"><Title level={5}>PHOTOGRAPHY</Title></div></Link>
+            <Link  to="/video"><div className="menuBox" href="/video"><Title level={5}>VIDEOGRAPHY</Title></div></Link>
+            <Link  to="/web"><div className="menuBox" href="/web"><Title level={5}>WEB</Title></div></Link>
+        
         </div>
         <div className="galeria">
         <Switch>

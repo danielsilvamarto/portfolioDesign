@@ -1,10 +1,13 @@
 import React, { useState, useCallback } from 'react';
-
+import { Image, Typography } from 'antd';
 import Gallery from 'react-photo-gallery';
 import { photos } from '../toDo/photos/photos';
 import Carousel, { Modal, ModalGateway } from "react-images";
+import Photoshop from './Adobe_Photoshop_CC_icon.svg';
+import Lightroom from './lightroom-cc.svg';
 import './photosS.css';
 import 'antd/dist/antd.css';
+import {text} from '../Texts/textos';
 
 
 const PhotosMe = () => {
@@ -21,9 +24,19 @@ const PhotosMe = () => {
     setViewerIsOpen(false);
     };
 
+    const {Title} = Typography; 
+
 
     return(
-        <div >
+        <div className="galeria3">
+        
+        <div style={{width:'99vw', padding:'15px', justifyContent:'center', alignSelf:'center', textAlign:'center'}}><Title  level={3}>PHOTOGRAPHY</Title></div>
+        <div className="textoOrdem"><Title  level={4}>{text[1].body}</Title></div>
+        <div className="texto" >
+          <div style={{padding:'15px', justifyContent:'center'}}><Image preview={false} className="imgSize" src={Photoshop} /></div>
+          <div style={{padding:'15px', justifyContent:'center'}}><Image preview={false} className="imgSize" src={Lightroom}/></div>
+        </div>
+        <div style={{paddingTop:'10vh'}}>
         <Gallery photos={photos} onClick={openLightbox} />
         <ModalGateway>
             {viewerIsOpen ? (
@@ -39,6 +52,7 @@ const PhotosMe = () => {
             </Modal>
             ): null}
         </ModalGateway>
+        </div>
         </div>
         
 

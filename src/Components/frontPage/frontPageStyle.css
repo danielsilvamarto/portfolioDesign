@@ -8,6 +8,8 @@
 .front{
     display: grid;
     grid-template-rows: 7vh 93vh;
+    width: 99vw;
+    height: 99vh;
 }
 
 .fundo{
@@ -38,6 +40,9 @@
 
 .buttonManage{
     grid-template-rows: 1fr 1fr 1fr;
+    padding: 5vh;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -45,11 +50,11 @@
 
 .coverAndTittle{
     display: grid;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
     margin-left: 10vw;
     margin-right: 10vw;
 }
-@media only screen and (min-width: 1115px) {
+@media only screen and (min-width: 921px) {
 .beginingBan{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -63,6 +68,17 @@
     animation-name: fadeDentro;
     animation-duration: 2s;
     
+}
+.textButton{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: auto;
+}
+
+.espaco{
+    padding:calc(2.5px + 1vw);
 }
 }
 
@@ -81,6 +97,17 @@
         animation-duration: 2s;
         max-height: 25vh;
         
+    }
+    .textButton{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: auto;
+    }
+
+    .espaco{
+        padding:calc(2.5px + 1vw);
     }
 
 }
