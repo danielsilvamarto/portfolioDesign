@@ -39,10 +39,10 @@
 }
 
 .buttonManage{
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 5vh;
+    grid-template-rows: 1fr 4fr 1fr;
+    padding-top: 8vh;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 
