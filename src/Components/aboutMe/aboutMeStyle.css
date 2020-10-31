@@ -1,5 +1,5 @@
 .foraGrid{
-    display: grid;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -12,8 +12,10 @@
   }
 @media only screen and (min-width: 1115px) {
 .sobreMim{
-    display: grid;
-    grid-template-rows: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*grid-template-rows: 60vh;*/
     border: 10px;
     background-color: rgb(255, 255, 255);
 }
@@ -25,6 +27,8 @@
         grid-template-rows: 130vh;
         border: 10px;
         background-color: rgb(255, 255, 255);
+        align-items: center;
+        justify-items: center;
     }
 }
 
@@ -34,7 +38,6 @@
         padding: 5vh;
         border: 4px;
         grid-template-columns: 1fr 1fr;
-        align-items: center;
         justify-items: center;
     
     }
@@ -42,10 +45,12 @@
 
 @media only screen and (max-width: 1115px) {
     .conteudo{
-        display: grid;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         padding: 5vh;
         border: 4px;
-        grid-template-rows: 1fr 1fr;
+        /*grid-template-rows: 50vh 1fr;*/
         align-items: center;
         justify-items: center;
     
@@ -55,14 +60,30 @@
 .eu{
     max-width: 400px;
     max-height: 400px;
-    
-}
-
-.euImagem{
     border: 1px solid rgba(202, 202, 202, 0.801);
     padding: 5px;
     border-radius: 2px;
-    animation-name: fadeDentro;
-    animation-duration: 4s;
+    
+}
+
+
+
+.infoLayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imgMax{
+    max-width: 40px;
+    max-height: 40px;
     padding: 5px;
+    opacity: 0.7;
+}
+
+.imgMax:hover{
+
+    opacity: 0.9;
+    transition: 0.5s;
+    
 }

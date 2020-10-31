@@ -28,9 +28,9 @@ const ToDo = () => {
     <div className="toDoForma">
         <div className="toDo">
         
-            <Link  to="/"><div className="menuBox"><Title level={5}>PHOTOGRAPHY</Title></div></Link>
-            <Link  to="/video"><div className="menuBox" href="/video"><Title level={5}>VIDEOGRAPHY</Title></div></Link>
-            <Link  to="/web"><div className="menuBox" href="/web"><Title level={5}>WEB</Title></div></Link>
+        <Link  to="/"><div className="menuBox"><Title style={{paddingBottom:'0px'}} level={5}>PHOTOGRAPHY</Title></div></Link>
+        <Link  to="/video"><div className="menuBox" href="/video"><Title style={{paddingBottom:'0px'}} level={5}>VIDEOGRAPHY</Title></div></Link>
+        <Link  to="/web"><div className="menuBox" href="/web"><Title style={{paddingBottom:'0px'}} level={5}>WEB</Title></div></Link>
         
         </div>
         <div className="galeria">

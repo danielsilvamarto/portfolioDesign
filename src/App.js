@@ -13,8 +13,7 @@ function App() {
   return (
     <div className="appLay">
       <FrontP />
-     
-       <AboutMe />
+      <AboutMe />
       <ToDo />
       
     </div>
