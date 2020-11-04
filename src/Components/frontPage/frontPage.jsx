@@ -54,7 +54,7 @@ const FrontPage= () => {
                         <div className="textButton">
                             <div className="espaco"><text style={{fontSize: "20px", marginLeft: "5px"}}>Daniel Marto</text></div>
                             <div style={{width:'30vw'}}></div>
-                            <a href="#about" style={{textDecoration: 'none'}}><div className="espaco" ><text style={{fontSize: "15px", marginLeft: "5px", color:'white', border:'1px', borderColor:'white', borderStyle:'groove', padding:'2px'}}>Sobre Mim</text></div></a>
+                            <a href="#about" style={{textDecoration: 'none'}}><div className="espaco" ><text style={{fontSize: "15px", marginLeft: "5px", color:'white', border:'1px', borderColor:'white', borderStyle:'groove', padding:'2px'}}>More Info</text></div></a>
                         </div>
                         
                     </div>

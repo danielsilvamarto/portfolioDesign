@@ -1,0 +1,25 @@
+.webMain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 4vh;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+.cardLay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.miner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    
+}

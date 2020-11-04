@@ -37,7 +37,7 @@ const PhotosMe = () => {
           <div style={{padding:'15px', justifyContent:'center'}}><Image preview={false} className="imgSize" src={Lightroom}/></div>
         </div>
         <div style={{paddingTop:'10vh'}}>
-        <Gallery photos={photos} onClick={openLightbox} />
+        <Gallery photos={photos} onClick={openLightbox}  />
         <ModalGateway>
             {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
