@@ -11,12 +11,11 @@ import {
 import Video from '../videography/video';
 import Photography from '../Photography/photos';
 import Web from '../webDev/webdev';
+
 import 'antd/dist/antd.css';
 import './ss.css';
 
 
-import 'antd/dist/antd.css';
-import './ss.css';
 
 
 const ToDo = () => {

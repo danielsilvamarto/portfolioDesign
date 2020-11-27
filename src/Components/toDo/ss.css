@@ -7,6 +7,7 @@
     padding-top: 4vh;
     width: auto;
     justify-items: center;
+
     
     background-color:  rgb(255, 255, 255);
 }
@@ -49,7 +50,7 @@
     display: inline-flexbox;
     max-width: 95vw;
     width: 95vw;
-    height: 9vh;
+    
     padding-top: 0vh;
     padding-bottom: 0vh;
     justify-content: center;

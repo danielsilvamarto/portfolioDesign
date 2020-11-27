@@ -1,0 +1,72 @@
+.madaMain{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 70vh;
+    max-height: 200vh;
+    background-image: url("./madagascarWeb2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: slide 60s linear infinite;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    padding: 1vw;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    
+}
+
+.infoDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.26);
+    min-width: 40vw;
+    max-width: 300px;
+    
+    
+    
+}
+
+/*.infoDisplay2{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 40vw;
+    max-width: 300px;
+    max-height: 120vh;
+    padding-left: 3vw;
+    
+    
+}*/
+.infoDisplay2{
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: 40vw;
+    max-width: 300px;
+    max-height: 120vh;
+    padding-left: 3vw;
+    
+    
+}
+
+.textDisplay{
+    margin: 20px;
+
+}
+
+.texto2{
+    color: seashell;
+}
+
+.eu2{
+    max-width: 266.66px;
+    max-height: 200px;
+    padding: 5px;
+    border-radius: 2px;
+    
+}
+
+

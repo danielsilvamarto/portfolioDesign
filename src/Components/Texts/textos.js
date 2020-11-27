@@ -13,5 +13,11 @@ export const text = [
     },
     {
         body:"Minerblanc.pt was created using WordPress allowing me to understand how to work on its features. All of the photographic work was also done by me."
+    },
+    {
+        body:"In the beginning of 2020 I had the privilege to work in Madagascar for 2 months. We worked along side"
+    },
+    {
+        body:"in order to protect Lemurs from extinction. The goal was to work with the community in order to protect the surrounding forest, by doing it so we protect the lemur's natural habitat."
     }
 ];
