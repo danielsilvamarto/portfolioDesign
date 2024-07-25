@@ -9,7 +9,7 @@ const {Title} = Typography;
 const Footer = () => {
 
     return(
-        <div className="footer"><Title level={5} style={{color:"#b8b6b6"}}>Copyright © 2024 Daniel Marto</Title></div>
+        <div className="footer"><Title level={5} style={{color:"#b8b6b6"}}>Copyright © 2025 Daniel Marto</Title></div>
     );
 }
 
